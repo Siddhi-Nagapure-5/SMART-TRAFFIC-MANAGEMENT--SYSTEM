@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="transportation_control.css">
+    <script src="transportation_control.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels-gamol-5986701 (2160p).mp4"></video>
+
+    <div class="container">
+   <div class="heading"><h2>TRANSPORTATION CONTROL METHOD</h2></div>
+   <div class="heading"><h2 id="heading1">APPROACH 1</h2><pre></pre><h2 id="heading2">APPROACH 2</h2></div>  
+   <div class="main">
+   
+   <center><div class="approach1">
+     <div class="input-field">
+       
+            <input type="text" required spellcheck="false" id="input1" name="input1"> 
+            <label for="input1">Enter Number of lanes on Road</label>       
+          </div> <br><br><br><br>
+          <div class="input-field">
+          <input type="number" required spellcheck="false" id="input2" name="input2"> 
+            <label for="input2">Enter Maximum no.of vehicles </label></div><br><br><br><br>
+            <div class="input-field">
+                <input type="submit" required spellcheck="false" value="SUBMIT" style="background-color: rgb(3, 3, 27);" id="submit1" name="submit1" onclick="approach1()">
+            </div>
+    </div></center> <br><br><br><br>
+    <center>
+        <div class="approach2">
+            <div class="input-field">    
+                <input type="text" required spellcheck="false" id="input3" name="input3"> 
+                <label for="input3">Enter Number of lanes on Road</label>       
+              </div> <br><br><br><br>
+              <div class="input-field">
+              <input type="text" required spellcheck="false" id="input4" name="input4"> 
+                <label for="input4">Enter Vehicle type </label></div><br><br><br><br>
+                <div class="input-field">
+                    <input type="number" required spellcheck="false" id="input5" name="input5"> 
+                      <label for="input5">Enter Vehicle Speed </label></div><br><br><br><br>
+                <div class="input-field">
+                    <input type="submit" required spellcheck="false" value="SUBMIT" style="background-color: rgb(3, 3, 27);"  id="submit2" name="submit2" onclick="approach2()">
+                </div>
+        </div>
+    </center></div>
+    <div class="output-container">
+    <p id="output"></p>
+    </div>
+</div>
+</body>
+</html>

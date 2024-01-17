@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myVideo{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 80%;
+            min-height: 80%;
+        }
+        .container
+        {
+            margin-top:100px;
+            margin-left: 100px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          animation:animate 5.5s steps(1000) infinite;
+          display: flex;
+        flex-direction: row;
+        
+          justify-content: space-between;
+          column-gap: 30px;
+          height: 500px;
+          padding: 30px;
+          margin: 100px;
+          margin-bottom: 50px;
+        }
+        .inner{
+            width: 300px;
+            height: 400px;
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          background-color: aliceblue;
+          color: #000;
+          border: 5px groove silver;
+          filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+          font-family:Georgia, 'Times New Roman', Times, serif;
+       
+        }
+        img{
+            object-fit: cover;
+            background-repeat: no-repeat;
+            border: 5px groove silver;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+        animation: anim 1s linear;
+
+        }
+      #inner4{
+        margin: 20px;
+        border: 5px groove silver;
+      }
+      
+      .container3{
+        display: flex;
+        flex-direction: row;
+        filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+        
+          justify-content: space-between;
+          column-gap: 50px;
+          height: 500px;
+          padding: 30px;
+          margin: 100px;
+          margin-left: 150px;
+      }
+      .container2{
+       
+        filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      
+      display: flex;
+    flex-direction: row;
+    
+      justify-content: space-between;
+      column-gap: 30px;
+      height: 500px;
+      padding: 30px;
+      margin: 100px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      }
+      .arrange{
+        width: 500px;
+        height: 400px;  
+          
+      }
+      @keyframes anim {
+        0%,5%{
+            width: 0%;
+        }
+        100%{
+            width:100%;
+        }
+      }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels-gamol-5986701 (2160p).mp4"></video>
+
+    <div class="container">
+        <div id="inner1" class="inner"><img src="p12.png"></div>
+        <div id="inner2" class="inner"><img src="p9.png"></div>
+        <div id="inner3" class="inner"><img src="p4.jpeg"></div>
+        <!-- <div id="inner4" class="inner"></div>
+        <div id="inner5" class="inner"></div>
+        <div id="inner6" class="inner"></div> -->
+         
+    </div>
+    <div class="container2" style="align-items:center;justify-content:center;">
+       <div id="inner4" class="inner"><img src="report11.jpg"></div>
+        <!-- <div id="inner5" class="inner arrange"><img src="report13.jpeg"width="250px" height="300px"></div>
+        <div id="inner6" class="inner arrange"><img src="report4.jpg"width="250px" height="300px"></div> -->
+        <!-- <div id="inner4" class="inner"></div>
+        <div id="inner5" class="inner"></div>
+        <div id="inner6" class="inner"></div> -->
+         
+    </div>
+    
+    <div class="container3">
+      
+        <div id="inner5" class="inner arrange"><img src="report13.jpeg" width="350px" height="300px" ></div>
+        <div id="inner6" class="inner arrange"><img src="report4.jpg" width="350px" height="300px"></div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+
+#myVideo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 80%;
+    min-height: 80%;
+}
+
+#myCanvas
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+            font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 480px;
+    margin-left: 100px;
+}
+
+.container
+{
+    width:800px;
+    height:600px;
+    margin-top:30px;
+    margin-left: 250px;
+    background-color: aliceblue;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: aliceblue;
+    border: 3px groove silver;
+}
+
+
+#btn1{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+
+#btn2{
+    margin-top: 30px;
+    margin-left: 230px;
+}
+#btn3{
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 400px;
+    font-size: large;
+
+}
+
+.container2{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 350px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: rgb(255, 255, 255);
+    border: 3px groove silver;
+    margin-bottom: 100px;
+}
+
+img,#myImage{
+    width: 500px;
+    height:450px;
+    background-repeat: no-repeat;
+    object-fit: fill;
+   
+}
+
+input{
+    color: transparent;
+}
+
+p{
+    color: aliceblue;
+    background-color: black;
+    font-size: 40px;
+}
+
+.footer{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 350px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: rgb(255, 255, 255);
+    border: 3px groove silver;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

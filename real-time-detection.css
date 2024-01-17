@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: black;
+ 
+}
+h1 {
+    opacity: 0;
+}
+video {
+    width: 60vw;
+    height: 60vh;
+    margin-left: 30px;
+    
+}
+button {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #0060DF;
+    border: solid 1px #0060DF;
+    color: #FFF;
+    pointer-events: all;
+    transition: .2s ease;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+}
+.removed {
+    opacity: 0;
+    pointer-events: none;
+}
+.invisible {
+    border: 1px solid #B1B1B3;
+    background: white;
+    color: #000;
+    cursor: default;
+    pointer-events: none;
+}
+.camView {
+    cursor: pointer;
+}
+.highlighter p {
+    padding: 5px;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+.highlighter {
+    border: 2px solid white;
+    box-shadow: 0 0 50px 0 white;
+    z-index: 1;
+    position: fixed;
+    display: grid;
+    place-content: center;
+}
+.background {
+    width: 100%;
+    position: fixed;
+    z-index: -1000;
+    left: 0;
+    top: 0;
+    background: black;
+}
+.demos
+{
+    width: 600px;
+    height: 600px;
+    margin: 200px;
+    margin-top: 70px;
+    background-color: #FFF;
+    border: 5px outset silver;
+    box-shadow: 5px 10px 10px  silver;
+   
+}
+
+.history
+{
+    width:650px;
+    height:600px;
+    background:cornsilk;
+    margin-top:500px;
+    margin-left: 350px;
+    color: #000;
+    border: 5px outset silver;
+    box-shadow: 5px 10px 10px  silver;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   overflow: hidden;
+   position: sticky;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src=""></script>
+    <script src=""></script> -->
+    <link rel="stylesheet" href="streaming_image_data.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.16.0/dist/tf.min.js" integrity="sha256-o0Xqta7C/q6ibOSAfRPi0zj1WJ2WrgcsACPx4src9QY=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js"></script>
+<script src="tfjs.js"></script>
+<script src="coco-ssd.js"></script>
+    <!-- here we are using pre-trained model that is coco-ssd model of javascript's tensorflow.js -->
+    <title>OBJECT DETECTION</title>
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo"><source src="video (2160p) (2).mp4"></video>
+
+  <div class="container" >
+    <div id="myCanvas">
+  
+  <center>
+   IMAGE UPLOADED WILL BE DISPLAYED HERE
+    <img id="myImage" src="">
+    
+  </center>
+    </div>
+    <button class="btn" id="btn1">UPLOAD <input type="file" name="my_file" id="my-file"></button>
+  
+    <button class="btn" id="btn2">DETECT</button>
+   
+  </div>
+  <button class="btn" id="btn3">OUTPUT WILL BE DISPLAYED BELOW</button>
+  <div class="container2">
+    <canvas id="meCanvas"></canvas>
+  </div>
+  <div class="footer">
+    <p id="para"></p>
+  </div> 
+  <script src="streaming_image_data.js"></script>
+</body>
+</html>
+
+
+
+

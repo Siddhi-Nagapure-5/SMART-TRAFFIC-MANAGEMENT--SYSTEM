@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="create_simulation.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels-gamol-5986701 (2160p).mp4"></video>
+
+    <div class="container">
+        <div class="heading"><h2>CREATE TRAFFIC SIMULATION</h2></div>
+        <div class="main">
+        <center><div class="approach1">
+            <div class="input-field">
+              
+                   <input type="text" required spellcheck="false" id="input1" name="input1"> 
+                   <label for="input1">Enter Vehicle Name</label>       
+                 </div> <br><br><br><br>
+                 <div class="input-field">
+                 <input type="number" required spellcheck="false" id="input2" name="input2"> 
+                   <label for="input2">Enter speed of Vehicle </label></div><br><br><br><br>
+                   <div class="input-field">
+                       <input type="submit" required spellcheck="false" value="CREATE SIMULATION" style="background-color: rgb(3, 3, 27);" id="submit1" name="submit1" onclick="create()">
+                   </div>
+           </div></center> </div>
+           <div class="output-container">
+    <video autoplay muted loop id="output"src="" ><source  id="inneroutput"></video>       
+            </div>
+    </div>
+    <script src="create_simulation.js"></script>  
+</body>
+
+</html>
+
+
+
+
+
+

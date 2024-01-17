@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+          }
+        #myVideo{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 80%;
+            min-height: 80%;
+        }
+        .container
+        {
+            margin-top:50px;
+            margin-left: 150px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          animation:animate 5.5s steps(1000) infinite;
+          color: aliceblue;
+
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 250px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            border: 5px groove silver;
+            padding: 10px;
+            width: 600px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+
+         }
+         li{
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+         }
+         .st
+{
+ 
+  
+  margin-bottom: 100px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+  column-gap: 100px;
+}
+
+#stream
+{
+  border:3px outset silver;
+  background-color: #1b0e48;
+
+  border-radius: 20px;
+ width:400px;
+ font-size: 20px;
+ height: 50px;
+ margin-bottom: 100px;
+ filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+
+}
+a
+{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="production_id_4182916 (2160p) (1).mp4"></video>
+    <div class="container">
+        <div class="heading">REAL-TIME TRAFFIC CONTROL</div>
+        <div class="main">
+        <ul>
+          <br><h1>Highlights</h1> <br>
+
+<li>Estimation of traffic bulkiness performed using real time video feed.</li><br>
+<li>Vehicle recognition in order to differentiate between emergency and non-emergency vehicles.</li><br>
+<li>The system proposed relies on the efficient coco-ssd model, which later provides output in order to manage traffic for each lane based on predictions.</li><br>
+<li>Prioritization of emergency vehicles solely depends on the vehicle recognition algorithm as per the training sets.</li>
+        </ul><br><br>
+        <ul style="font-size: 20px;">
+            <strong>HERE TO PROVIDE THE REAL TIME CONTROL OVER THE TRAFFIC FLOW WE HAVE PROPOSED TWO SOLUTIONS THEY ARE BELOW ...</strong>
+        </ul>
+        
+            <div class="st" style="height:300px;">
+              <button id="stream"><a href="streaming_image_data.html">REAL TIME OBJECT DETECTION METHOD</a></button>
+              <button id="stream"><a href="stream_real_time_video.html">REAL TIME STREAMING METHOD</a></button>
+            </div>
+     </div> 
+    </div>
+</body>
+</html>

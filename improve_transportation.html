@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          padding:0;
+          margin:0;
+        }
+        #myVideo{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 80%;
+            min-height: 80%;
+        }
+        .container
+        {
+            margin-top:50px;
+            margin-left: 100px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          color: aliceblue;
+          
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 250px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            border: 5px groove silver;
+            padding: 10px;
+            width: 600px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+
+         }
+         .main{
+            margin-top: 50px;
+            font-size: 18px;
+            width: 80vw;
+            margin-left: 50px;
+        }
+        li{
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           width: 900px;
+           margin-left: 80px;
+         }
+         strong{
+           margin-left: 50px;
+         }
+         .st
+         {
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+          
+           
+         
+           display: flex;
+          
+           column-gap: 100px;
+           
+           padding: 20px;
+           margin: 100px;
+           margin-bottom: 10px;
+           margin-top: 50px;
+         }
+         
+         #stream
+         {
+           border:3px outset silver;
+           background-color: #1b0e48;
+         
+           border-radius: 20px;
+          width:400px;
+          font-size: 20px;
+          height: 50px;
+          margin-bottom: 100px;
+          filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+         
+         }
+         a
+         {
+           text-decoration: none;
+           color: aliceblue;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         }
+         .footer{
+           
+           
+            margin-right: 100px;
+            margin-bottom: 100px;
+          filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+          color: aliceblue;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        margin-left: 130px;
+          font-size: 28px;
+         height: 50px;
+          padding: 10px;
+          border-bottom: 5px outset rgb(218, 214, 214);
+          animation: anim 2s linear forwards;
+         }
+         hr{
+            width: 1000px;
+        margin-left: 65px;
+        animation: animate 2s linear forwards;
+         }
+        
+         @keyframes anim {
+            0%{
+               border-bottom: 0px outset rgb(218, 214, 214) ;
+            }
+            100%{
+                border-bottom: 5px outset rgb(218, 214, 214);
+            }
+         }
+         @keyframes animate {
+            0%{
+               width:0%;
+            }
+            100%{
+                width: 1000px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels_videos_2611250 (2160p).mp4"></video>
+    <div class="container">
+        <div class="heading">IMPROVE TRANSPORTATION</div>
+        <div class="main">
+        <ul><br>Transportation is a crucial component of the logistics industry. It enables businesses to transport goods and services quickly, effectively, and affordably to their destination. Taking the appropriate measures to increase transport efficiency can help companies increase their profits and minimise costs, reduce delivery times, improve customer service levels and overall customer satisfaction. There are a variety of methods by which businesses can increase transport efficiency. These include strategies such as improving the design of transport systems, investing in technology, developing optimal transport routes and emphasising superior customer service.</ul>
+        </div>
+       <br><br> <ul><strong>SOME PROPOSED IMPROVING TRANSPORTATION THEORIES ARE</strong><br><br><br>
+            <li>Traffic regualtions state that,when you are driving your vehicle and you reach an intersection with no 
+                signage indicating right of way ,you are required to yield to all vehicles that approach from your right, including bicycles.
+            </li><br>
+            <li>If there are only two lanes going in your direction, pick the right lane for the smoothest driving.</li><br>
+            <li>If you can choose among three lanes on your side of the road ,pick the middle lane for the smoothest driving.Use the left lane to go faster,pass,or turn left.</li><br>
+            <li>Maximum width of road vehicles shall have width upto maximum of 2.44 m</li><br>
+            <li>Maximum height for normal vehicles is 3.8 m</li><br>
+            <li>The traffic capacity of a highway depends upon at least three things they are:-<ul><br>
+             <li>The width of the vehicle</li><br>
+             <li>The speed of the vehicle</li><br>
+             <li>Uniformity of speeds</li><br>
+            </ul></li><br>
+            <li>Following are two methods proposed by us to improve efficient transportation</li><br>
+        </ul>
+        <div class="st" style="height:150px;">
+            <button id="stream"><a href="transportation_control.html">TRANSPORTATION CONTROL METHOD</a></button>
+            <button id="stream"><a href="data_visualization1.html">DATA VISUALIZATION METHOD</a></button>
+          </div><br><hr><hr><br>
+          <div class="footer">  
+        <p> MORE ROAD LANES , LESS TRAFFIC AND EFFICIENT TRANSPORTATION</p>
+          </div>
+    </div>
+</body>
+</html>

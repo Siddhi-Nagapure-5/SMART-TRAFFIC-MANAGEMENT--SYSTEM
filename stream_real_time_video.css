@@ -1,0 +1,117 @@
+*body{
+    margin: 2em;
+    padding: 0;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .outer-container{
+width:100vw;
+height: 100vh;
+} */
+
+
+#myVideo{
+    position: fixed;
+ bottom: 0;
+ right: 0;
+    min-width: 80%;
+    min-height: 80%;
+}
+h1{
+    font-style: italic;
+    color:#FF6F00;
+
+}
+
+#webcam{
+    display: block;
+}
+
+section{
+    opacity:1;
+    color: beige;
+    transition: opacity 500ms ease-in-out;
+}
+
+.removed{
+
+    display: none;
+}
+.invisible{
+    opacity: 0.2;
+}
+
+.camView{
+    position: relative;
+    float: left;
+    width: calc(100%-20px);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.camView p{
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(103, 84, 70, 0.85);
+    color:#FFF;
+    border: 1px dashed rgba(255,255,255,0.7);
+    z-index: 2;
+    font-size: 12px;
+}
+
+.highlighter{
+    background: rgba(0, 255, 0, 0.25);
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+}
+
+#liveView{
+
+    margin-left: 350px;
+    margin-right: 150px;
+    margin-top: 30px;
+    border: 3px groove rgb(255, 255, 255);
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#webcamButton{
+    width: 100px;
+    height: 50px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: aliceblue;
+    border: 3px groove silver;
+    
+}
+
+.predictions{
+
+    width: 630px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 355px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: rgb(255, 255, 255);
+    border: 3px groove silver;
+    
+   margin-bottom: 100px;
+}
+#historyBtn{
+    width: 100px;
+    height: 60px;
+    filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 18);
+    color: aliceblue;
+    border: 3px groove silver;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 420px;
+    font-size: large;
+
+}

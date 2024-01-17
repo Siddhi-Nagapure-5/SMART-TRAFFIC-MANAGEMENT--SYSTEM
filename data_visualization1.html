@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="data_visualization1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+   <style>
+    #myVideo{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 80%;
+        min-height: 80%;
+    }
+    .container2
+    {
+        margin-top:50px;
+        margin-left: 100px;
+        filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      color: aliceblue;
+      
+    }
+   </style>
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels_videos_2611250 (2160p).mp4"></video>
+    <div class="container2">
+    <div class="heading">NATIONAL HIGHWAY LANE LENGTH SHARE AND OCCUPIED AREA CLASSIFICATION</div>
+    <div class="container">   
+        <div class="chart">
+      <canvas id="barchart" width="300" height="300"></canvas>
+        </div>
+        <div class="chart">
+            <canvas id="doughnut" width="300" height="300"></canvas>
+
+        </div>
+    </div>
+</div>
+    <script src="data_visualization1.js"></script>
+    <script src="data_visualization2.js"></script>
+
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+          }
+        #myVideo{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 80%;
+            min-height: 80%;
+        }
+        .container
+        {
+            margin-top:100px;
+            margin-left: 0px;
+            filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          animation:animate 5.5s steps(1000) infinite;
+          color: aliceblue;
+        }
+         h2{
+            width: 200px;
+            height:50px;
+         }
+         .heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+         }
+         .main{
+            width:600px;
+            height: 350px;
+            margin-top: 50px;
+            display: flex;
+           word-spacing: 5.5px;
+            margin-left: 340px;
+           border: 5px groove silver;
+           padding: 50px;
+           line-break: strict;
+           line-height: 23px;
+           justify-content: flex-start;
+           align-items: center;
+           letter-spacing: 1.2;
+    text-rendering: geometricPrecision;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           filter: drop-shadow(0 20px 30px rgb(3, 3, 27)) drop-shadow(0 20px 40px rgb(5, 5, 40));
+         
+         }
+         
+         .text{
+            animation: typing 5s steps(200);
+         }
+         @keyframes typing {
+           0%{
+            opacity: 0.1;
+
+           }
+           100%{
+            opacity: 1;
+           }
+           
+            
+         }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="pexels-gamol-5986701 (2160p).mp4"></video>
+    <div class="container">
+       <div class="heading">ABOUT US</div>
+       <div class="main"><div class="text">
+HERE , WE ARE ACTUALLY DEVELOPING THE SMART TRAFFIC MANAGEMENT SYSTEM SOLUTIONS.ACTUALLY, NOW-A-DAYS THE TRAFFIC CONGESTION IS ONE OF THE MOST DIFFICULT ISSUE FACED BY THE TRAFFIC MANAGEMENT SYSTEM.AS FROM LAST FEW YEARS,THE TRAFFIC POPULATION HAS BEEN
+DRASTICALLY INCREASED .THUS, WE HAVE TO MAKE CONTROL OVER IT OTHERWISE IT IS LEADING TO TRAFFIC CONGESTION, DECREASING THE EFFICIENCY OF TRANSPORTATION,AND THAT'S WHY SLOW TRANSPORTATION WITH INCREASED WAITING TIME .
+SO TO AVOID, SUCH ISSUES LIKE REDUCING CONGESTION OF TRAFFIC ,INCREASING EFFICIENCY OF TRANSPORTATION AND CONTROLLING TRAFFIC FLOW , HERE WE HAVE PROPOSED SOME SOLUTIONS .BASED ON SOME REAL-TIME DATA AND SIMULATIONS WE HAVE ANALYSED ALL THE ASPECTS AND GIVEN OUR BEST TO PROPOSE MOST ROBUST AND EFFICIENT ONE SYSTEM.</div>
+    </div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stream_real_time_video.css">
+
+</head>
+<body>
+<div class="outer-container">
+    <video autoplay muted loop id="myVideo"><source src="pexels-gamol-5986701 (2160p).mp4"></video>
+</div>
+<section id="demos" class="invisible">
+   <center><p>HOLD SOME OBJECTS UP CLOSE TO YOUR WEBCAM TO GET A REAL-TIME CLASSIFICATION! WHEN READY CLICK "ENABLE WEBCAM" BELOW AND ACCEPT ACCESS TO THE WEBCAM WHEN THE BROWSER ASKS(CHECK THE TOP LEFT OF YOUR WINDOW)</p></center> 
+
+    <div id="liveView" class="camView">
+        <button id="webcamButton">ENABLE WEBCAM</button>
+        <video id="webcam" autoplay width="640" height="480"></video>
+    </div>
+</section>
+<center> <button id="historyBtn">PREDICTIONS OF WHAT HAS BEEN DETECTED WILL BE PROPOSED HERE.....</button></center>
+
+<div class="predictions">
+    <p id="record">records</p>
+</div>
+<!-- IMport Tensorflow.js library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.16.0/dist/tf.min.js" integrity="sha256-o0Xqta7C/q6ibOSAfRPi0zj1WJ2WrgcsACPx4src9QY=" crossorigin="anonymous"></script>
+
+<!-- Load the coco-ssd model to use to recognize things in images -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.3/dist/coco-ssd.min.js" integrity="sha256-iHW4wbtXcjmQydZQYibg5RzSG4tpQ+tTIBCGCW3lLfU=" crossorigin="anonymous"></script>
+
+<script src="stream_real_time_video.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
